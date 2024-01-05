@@ -1,0 +1,72 @@
+.projectHeading{
+    align-self: center;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.projectSection{
+    display: flex;
+    flex-direction: column;
+    
+}
+.ulSection{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.liSection{
+    display: flex;
+    box-shadow: 1px 1px 5px;
+    justify-content: space-between;
+    
+    margin:10px
+    
+    
+}
+.nameSection{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.image{
+    height:200px;
+    width:150px
+}
+@media screen and (min-width:768px){
+.projectHeading{
+    align-self: center;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.projectSection{
+    display: flex;
+    flex-direction: column;
+    
+}
+.ulSection{
+    display: flex;
+    flex-direction: column;
+    
+}
+.liSection{
+    display: flex;
+    box-shadow: 1px 1px 5px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+    
+}
+.nameSection{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.image{
+    height:200px;
+    width:300px
+}
+}

@@ -1,0 +1,182 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-left: 20px;
+    
+   
+}
+.profilename{
+    font-size:20px
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-right:40px
+}
+
+.headerButtonSection{
+   display: flex;
+   justify-content: space-between;
+   width:50vw;
+   align-items: center;
+ 
+
+}
+.body{
+   display: flex;
+   flex-direction: column;
+   width:100vw;
+   
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:90vw;
+   
+    padding: 10px;
+    border-radius:5px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px;
+
+}
+.profile{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:350px;
+    align-self: center;
+    width:50vw;
+}
+.inputDescription{
+    height:100px;
+
+}
+.addButton{
+    align-self: center;
+    margin:10px;
+    background-color: orange;
+    border: none;
+    border-radius: 3px;
+    color: #000000;
+    height:30px;
+    width:60px;
+    font-weight: bold;
+}
+.projectButtonSection{
+    width:40%;
+    display: flex;
+    justify-content: space-between;
+}
+.formHeading{
+    align-self: center;
+    font-family: "Roboto";
+}
+
+input{
+    
+    border-radius: 5px;
+    border-color: grey;
+    border-width: 1px;
+}
+
+.projectButton{
+    
+    background-color: orange;
+    border: none;
+    border-radius: 3px;
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+.role{
+  color:orange;
+  font-weight: bold;
+  
+}
+@media screen and (min-width:768px){
+    .content{
+        
+        flex-direction: row;
+    
+    
+    }
+}
+
+
+@media screen and (min-width:1024px){
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-left: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-right:20px
+}
+.name{
+    font-size:30px
+}
+
+.headerButtonSection{
+   display: flex;
+   justify-content: space-between;
+   width:20%;
+
+}
+.body{
+   display: flex;
+   flex-direction: column;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width:95%;
+   
+    padding: 10px;
+    
+
+}
+.profile{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+}
+.form{
+    
+    width:30vw;
+}
+.inputDescription{
+    height:80px;
+
+}
+
+.projectButtonSection{
+    width:15%;
+   
+}
+
+
+
+
+
+}

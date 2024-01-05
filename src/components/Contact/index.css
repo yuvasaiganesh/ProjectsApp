@@ -1,0 +1,11 @@
+.contactSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+}
+.contactHeading{
+ 
+ font-family: "Roboto";
+ font-weight: bold;
+}

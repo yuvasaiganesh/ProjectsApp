@@ -1,0 +1,8 @@
+.aboutSection{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+b{
+    color:orange
+}
