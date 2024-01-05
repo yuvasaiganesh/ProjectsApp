@@ -1,15 +1,17 @@
 import { useNavigate } from "react-router-dom"
 import "./index.css"
-import { useState ,useContext} from "react"
+import { useState ,useContext,useEffect,useRef} from "react"
 import { Contextdata } from "../../Context/FirstContext";
 
 
 const Home =()=>{
-    const [name,setName]=useState()
-    const [link,setLink]=useState()
-    const [desc,setDesc]=useState()
+    const [name,setName]=useState("")
+    const [link,setLink]=useState("")
+    const [desc,setDesc]=useState("")
     const [data]= useState({data:useContext(Contextdata)})
     console.log(data)
+
+
 
     const navigate= useNavigate()
 
@@ -26,7 +28,9 @@ const Home =()=>{
  }
 
  
-
+const projectName=useRef()
+const projectLink=useRef()
+const projectDesc=useRef()
  const toaddItems=(event)=>{
     event.preventDefault()
     
@@ -42,9 +46,9 @@ const Home =()=>{
    
 
     data.data.updateprojects(item)
-    setName("")
-    setLink("")
-    setDesc("")
+    projectName.current.value="";
+    projectLink.current.value=""
+    projectDesc.current.value=""
    
  }
 
@@ -99,13 +103,13 @@ const Home =()=>{
                 <form className="form" onSubmit={toaddItems}>
                     <h1 className="formHeading">Add Project</h1>
                     <label htmlFor="Project Name">Project Name</label>
-                    <input onChange={toChangeName} name="Project Name" type="text"/>
+                    <input ref={projectName} onChange={toChangeName} name="Project Name" type="text"/>
 
                     <label htmlFor="Project link">Project link</label>
-                    <input onChange={toChangelink} name="Project link" type="text"/>
+                    <input ref={projectLink}  onChange={toChangelink} name="Project link" type="text"/>
 
                     <label htmlFor="Project Description">Project Description</label>
-                    <input onChange={toChangeDesc} className="inputDescription" name="Project Description" type="text"/>
+                    <input ref={projectDesc}  onChange={toChangeDesc} className="inputDescription" name="Project Description" type="text"/>
 
                     <button type="submit" className="addButton">Add</button>
 

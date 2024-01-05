@@ -14,7 +14,7 @@ return(
                     <div className="nameSection">
                        <h1>{each.name}</h1>
                        <p>{each.desc}</p>
-                       <a href={each.link}>view Project</a>
+                       <a target="_blank" href={each.link}>view Project</a>
                     </div>
                     <div  className="imageSection">
                       <img  className="image" src={each.imageLink}/>
