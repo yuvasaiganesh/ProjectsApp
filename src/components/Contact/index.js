@@ -6,7 +6,7 @@ const Contact=()=>{
         <p><b>Mail: </b>yuvasaiganesh@gmail.com</p>
         
         <p><b>Mobile: </b>8125991022</p>
-        <p><b>Linkedin:  </b> <a target="_blank" href="https://www.linkedin.com/in/yuvasaiganesh-yadla-a77a24230/">www.linkedin.com/in/yuvasaiganesh-yadla</a></p>
+        <p><b>Linkedin:  </b> <a target="_blank" href="https://www.linkedin.com/in/saiganesh-yadla/">www.linkedin.com/in/yuvasaiganesh-yadla</a></p>
     
     </div>
         )

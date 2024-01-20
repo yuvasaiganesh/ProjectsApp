@@ -7,6 +7,14 @@
     
    
 }
+
+
+.anchorButton{
+    text-decoration: none;
+    color:black
+    
+}
+
 .profilename{
     font-size:20px
 }
@@ -74,7 +82,7 @@
     font-weight: bold;
 }
 .projectButtonSection{
-    width:40%;
+    width:70%;
     display: flex;
     justify-content: space-between;
 }
@@ -111,6 +119,11 @@ input{
         flex-direction: row;
     
     
+    }
+
+    .projectButtonSection{
+        width:40%;
+       
     }
 }
 
